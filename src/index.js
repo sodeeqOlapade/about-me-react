@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Homepage, { Leftcontainer, Rightcontainer } from './App';
+import Homepage from './App';
 import * as serviceWorker from './serviceWorker';
 import Hire from './hire';
+import Blog from './blog';
 
-ReactDOM.render(<Hire />, document.getElementById('root'));
+ReactDOM.render(<Blog />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

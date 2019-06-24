@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import Blogtechs from './blogtechs';
 import Blogright from './blogright';
 

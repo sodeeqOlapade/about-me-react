@@ -1,6 +1,8 @@
 import React from 'react';
 import Footer from './footer.js';
 
+
+
 class Hire extends React.Component {
   constructor(props) {
     super(props);

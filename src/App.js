@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Leftcontainer from './leftcontainer';
-import Rightcontainer from './rightcontainer';
-import Myimage from './myImage';
+import Leftcontainer from './leftcontainer'
+import Rightcontainer from './rightcontainer'
+import Myimage from './myImage'
+
 
 function Homepage() {
   return (
-    <section className="wrapper">
+    <section className = 'wrapper'>
       <Leftcontainer />
       <Rightcontainer />
       <Myimage />
